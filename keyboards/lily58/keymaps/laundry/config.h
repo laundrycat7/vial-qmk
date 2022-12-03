@@ -26,9 +26,14 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 // #define MASTER_RIGHT
 // #define EE_HANDS
 
+/* VIAL secure unlock keystroke - currently both big keys (typ. SPACE/ENTER) */
+#define VIAL_UNLOCK_COMBO_ROWS {4, 9}
+#define VIAL_UNLOCK_COMBO_COLS {4, 4}
+
 /* Space reduction */
 
 #define DYNAMIC_KEYMAP_LAYER_COUNT 4
+#define VIAL_TAP_DANCE_ENTRIES 2
 #undef LOCKING_SUPPORT_ENABLE
 #undef LOCKING_RESYNC_ENABLE
 #define NO_ACTION_ONESHOT
